@@ -130,12 +130,6 @@ hr.solid {
   margin: 18px;
 }
 
-/* Makes instuction diagrams responsive */
-.my_image {
-  max-width: 100%;
-  height: auto;
-}
-
 /* styling for "Legal Stuff" */
 .subsection_text {
   font-family: Tahoma, sans-serif;
