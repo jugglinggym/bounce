@@ -1,0 +1,131 @@
+body {
+  background-color: #F3F0ED;
+}
+
+h1 {
+  font-family: Tahoma, sans-serif;
+  display: inline-block
+}
+
+h2 {
+  font-family: Tahoma, sans-serif;
+}
+
+h3 {
+  font-family: Tahoma, sans-serif;
+}
+
+figcaption {
+  font-style: italic;
+  font-family: Tahoma, sans-serif;
+  font-size: small
+}
+
+.my_footer {
+  background-color: #F14860;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 15px;
+  padding: 3px
+}
+
+.my_button {
+  background-color: #F14860;
+  color: #ffffff;
+}
+
+.my_margins {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.navbar-brand {
+  font-size:15px;
+}
+
+
+/*** Angela's code from index.css that applies to multiple pages ***/
+@font-face {
+  font-family: 'headerFont';
+  src: './Fonts/MontserratAlternates-Regular.ttf';
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: './Fonts/Roboto-Medium.ttf';
+}
+
+p {
+  font-family: Tahoma, sans-serif;
+  margin-top: 18px;
+  font-size: 18px
+}
+
+/* div that contains the title of the page & "this page covers" */
+.title_container {
+  margin-top: 15px;
+  font-family: Tahoma, sans-serif;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 40px
+}
+
+.title_text{
+  font-family: 'headerFont';
+  font-weight: bold;
+  margin: 0px;
+  font-size: 46px;
+  color: #003780
+}
+
+.title_paragraph {
+  font-family: Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.title_bullet {
+  font-size: 20px;
+  margin: 4px;
+}
+
+/*  div that contains the icons and the section title */
+.section_header_container {
+  display:flex;
+  flex-direction:row;
+  align-items: stretch;
+}
+
+/* icon that goes next to section title */
+.section_header_icon {
+  max-width:7%;
+  object-fit: contain;
+  border-width: 1px;
+  border-color: black;
+  margin-right: 10px
+}
+
+.section_header_text {
+  font-size: 35px;
+  vertical-align: text-top;
+  line-height: 100%;
+  font-family: 'headerFont';
+  font-weight: bold;
+  color: #003780;
+}
+
+/* solid line that divides sections */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+/*** end ***/
+
+/* bullet to match Angela's paragraph style */
+.my_bullet {
+  font-size: 18px;
+  margin: 18px;
+}

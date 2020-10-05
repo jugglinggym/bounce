@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'headerFont';
+  src: './Fonts/MontserratAlternates-Regular.ttf';
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: './Fonts/Roboto-Medium.ttf';
+}
+
+
+.welcome {
+  font-family: 'headerFont';
+  font-weight: bold;
+  color: #003780;
+  font-size: 35px
+}
+
+.main-bottom {
+  font-family: Tahoma, sans-serif;;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:center;
+  margin-top: 40px
+}
+
+.juggle-img {
+  max-width:20%;
+}

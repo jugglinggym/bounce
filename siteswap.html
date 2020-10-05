@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="my_stylesheet.css">
+  </head>
+
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Ultimate Bounce Juggling Guide</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="introduction.html">Getting Started</a></li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">The Basics
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="lift_bounce.html">Lift Bounce Cascade</a></li>
+            <li><a href="force_bounce.html">Force Bounce Cascade</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Beginner Tricks
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="423.html">423</a></li>
+            <li><a href="under_the_leg.html">Under the Leg</a></li>
+            <li><a href="double_bounce.html">Double Bounce</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Intermediate Tricks
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="two_in_one_hand.html">Two-in-one-hand</a></li>
+            <li><a href="441.html">441</a></li>
+            <li><a href="the_shower.html">The Shower</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Advanced Tricks
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="wimpy.html">Wimpy</a></li>
+            <li><a href="four_ball_fountain.html">Four Ball Fountain/Columns</a></li>
+            <li><a href="633.html">633</a></li>
+            <li><a href="five_ball_cascade.html">Five Ball Lift Cascade</a></li>
+          </ul>
+        </li>
+
+        <li class="active"><a href="siteswap.html">Siteswap Notation</a></li>
+
+        <li><a href="contact.html">Contact Me</a></li>
+
+
+    </ul>
+  </div>
+</nav>
+
+
+<body>
+  <script type="text/javascript" src="flip.js"></script>
+
+  <div class="container">
+    <h1 class="title_text">Introduction to Siteswap Notation </h1>
+
+    <p>
+      Siteswap Notation is a way to express juggling tricks with numbers. This notation is extremely powerful and has many applications, such as:
+    </p>
+
+    <ul>
+      <li class="my_bullet"> Allowing jugglers to talk about tricks <i>precisely</i> using only numbers </li>
+      <li class="my_bullet"> Leading to the rise of siteswap generators, where you can type in the numbers and an animated figure will perform that trick  </li>
+      <li class="my_bullet"> Telling you the number of balls you need to juggle a pattern </li>
+    </ul>
+
+    <p>
+      Before we get into how siteswap notation works, I should note that I’m going to teach you the basic version of siteswap. There is a more technical description of siteswap, and some jugglers feel very strongly about learning it and not the version I prefer. If you are interested in learning the more technical definition, please check out another resource. Personally, I have never learned the technical definition because I find it to be confusing. I can still easily understand siteswap notation.
+    </p>
+
+    <p>
+      Okay, now that we have those disclaimers out of the way, let’s dive into the basics of siteswap. Odd numbers in siteswap mean that the ball goes from one to the other. Even numbers mean the ball stays in the same hand that threw it. The magnitude of the number indicates the height of the ball. So, we have:
+    </p>
+
+    <ul>
+      <li class="my_bullet"> 3: The height required to throw a ball in a 3-ball cascade. The ball crosses from one hand to the other. </li>
+      <li class="my_bullet"> 4: The height required to throw a ball in a 4-ball fountain. The ball stays in the same hand. </li>
+      <li class="my_bullet"> 5: The height required to throw a ball in a 5-ball cascade. The ball crosses from one hand to the other. </li>
+    </ul>
+
+    <p>
+      There are a few other important numbers:
+    </p>
+
+    <ul>
+      <li class="my_bullet"> O: The hand is empty. </li>
+      <li class="my_bullet"> 1: The ball goes from one hand to the other in a quick, straight line. </li>
+      <li class="my_bullet"> 2: You hold the ball. </li>
+    </ul>
+
+    <p>
+      Each number indicates what one hand does, and the numbers alternate from referring to the RH to the LH. The pattern goes on indefinitely, but generally people describe the trick using only one sequence. For example, they call the trick “423,” not “423423423.”
+    </p>
+
+    <p>
+      To see how siteswap works, let’s break down 423. I’ll illustrate this trick using toss juggling since it’s easier to see the different heights this way, but it works the same for bounce juggling. The trick starts with the “4”. The “4” means that the green ball in your RH goes straight up and lands in the same hand (Image 1). The “2” means that your LH holds the purple ball (Image 2). The “3” means that your RH throws the red ball to your LH (Image 3).
+    </p>
+    <button type="button" class="btn my_button" onclick="flip()">FLIP</button>
+
+    <div class="row">
+        <figure class="col-xs-3 col-md-3 text-center">
+          <img class="my_image" src="Images/Siteswap 1.png">
+          <figcaption> Image 1 (The "4")</figcaption>
+        </figure>
+
+        <figure class="col-xs-3 col-md-3 text-center">
+          <img class="my_image" src="Images/Siteswap 2.png">
+          <figcaption> Image 2 (The "2") </figcaption>
+        </figure>
+
+        <figure class="col-xs-3 col-md-3 text-center">
+          <img class="my_image" src="Images/Siteswap 3.png">
+          <figcaption> Image 3 (The "3") </figcaption>
+        </figure>
+    </div>
+
+    <p>
+      Now, we’re back to the “4” again, and we’re on the LH. This means that you do the exact same thing as before, but start with your LH (Image 4 - 7). The string of numbers continues as long as you do the trick!
+    </p>
+
+    <div class="row">
+        <figure class="col-xs-3 col-md-3 text-center">
+          <img class="my_image" src="Images/Siteswap 4.png">
+          <figcaption> Image 4 (The "4")</figcaption>
+        </figure>
+
+        <figure class="col-xs-3 col-md-3 text-center">
+          <img class="my_image" src="Images/Siteswap 5.png">
+          <figcaption> Image 5 (The "2") </figcaption>
+        </figure>
+
+        <figure class="col-xs-3 col-md-3 text-center">
+          <img class="my_image" src="Images/Siteswap 6.png">
+          <figcaption> Image 6 (The "3") </figcaption>
+        </figure>
+
+        <figure class="col-xs-3 col-md-3 text-center">
+          <img class="my_image" src="Images/Siteswap 7.png">
+          <figcaption> Image 7 </figcaption>
+        </figure>
+    </div>
+
+
+    <p>
+      Another really cool thing about siteswap is that the average of the numbers tells you the number of balls the trick involves. For example:
+    </p>
+
+    <ul>
+      <li class="my_bullet"> 423 → 4 + 2 + 3 = 9. 9/3 = 3 balls </li>
+      <li class="my_bullet"> 441 → 4 + 4 + 1 = 9. 9/3 = 3 balls </li>
+      <li class="my_bullet"> 633 → 6 + 3 + 3 = 12. 12/3 = 4 balls </li>
+    </ul>
+
+    <p>
+      I should also point out that not all tricks can be represented by siteswap. For example, Mills’ Mess, a really cool pattern that makes the balls go in a figure 8, has the same siteswap as the normal 3 ball cascade, “3”.
+    </p>
+
+    <p>
+      That wraps up our overview of siteswap notation! Definitely check out other resources if you want to see a video tutorial. Taylor Glenn, a professional juggler, has <a href="https://youtu.be/NsIlQDhMKro" target="_blank">this </a> explanation on her YouTube channel which may be helpful.
+    </p>
+
+    <p>
+      Now that you know siteswap notation, you can learn <a href="423.html"> 423 </a>, <a href="441.html"> 441 </a>, and <a href="633.html"> 633</a>.
+    </p>
+
+    <div class="my_footer text-center">
+       Copyright © 2020, Logan Pearce. All rights reserved.
+    </div>
+
+
+</body>
+
+
+
+</html>
