@@ -101,14 +101,11 @@ p {
 
 /* icon that goes next to section title */
 .section_header_icon {
-  /* max-width:7%; */
+  max-width:7%;
   object-fit: contain;
   border-width: 1px;
   border-color: black;
   margin-right: 10px;
-
-  max-width: 7%;
-  height: auto;
 }
 
 .section_header_text {
@@ -133,7 +130,15 @@ hr.solid {
   margin: 18px;
 }
 
+/* Makes instuction diagrams responsive */
 .my_image {
   max-width: 100%;
   height: auto;
+}
+
+/* styling for "Legal Stuff" */
+.subsection_text {
+  font-family: Tahoma, sans-serif;
+  margin-top: 24px;
+  font-size: 24px
 }
